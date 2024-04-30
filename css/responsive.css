@@ -1,0 +1,306 @@
+/*======================================
+Large desktop
+=======================================*/
+@media (min-width: 1200px) {
+
+
+}
+/* END Large desktop */
+
+/*======================================
+Portrait tablet to landscape and desktop
+=======================================*/
+@media (max-width:991px) {
+
+    /*menu*/
+    button.tz_icon_menu{
+        display: block;
+    }
+    nav.nav-collapse {
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+    ul.tz-nav{
+        float: none;
+        position: relative;
+        width: 250px;
+        background: #808080;
+        margin: 0;
+        padding: 0;
+    }
+    ul.tz-nav li{
+        float: none;
+        width: auto;
+        display: block;
+    }
+    ul.tz-nav div.themeple_custom_menu_mega_menu{
+        width: auto !important;
+        display: block;
+        position: relative;
+
+    }
+    ul.tz-nav div.themeple_custom_menu_mega_menu ul > li {
+        float: none;
+        margin: 0 !important;
+        width: auto !important;
+    }
+    ul.tz-nav li ul.non_mega_menu
+    {
+        display: block;
+        position: relative;
+        width: auto;
+    }
+    ul.tz-nav li ul.non_mega_menu li ul{
+        display: block !important;
+        position: relative;
+        width: auto;
+        left: 0;
+        padding: 0;
+    }
+    .tz-headerShop,
+    .tz-header{
+        position:relative;
+        z-index: 999;
+    }
+    .tz-headerHome nav ul.tz-nav > li > a{
+        box-shadow:none;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav .tz-nav{
+        background: #eee;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav .tz-nav,
+    .tz-headerShop #tz-navbar-collapse,
+    .tz-header #tz-navbar-collapse{
+        position: absolute;
+        top: 100%;
+        width: 95%;
+        padding:0;
+    }
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav,
+    .tz-header #tz-navbar-collapse ul.tz-nav{
+        width:100%;
+        background:#eee;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children:after,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:after,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:after{
+        content:"\f105";
+        position: absolute;
+        top:8px;
+        right:10px;
+        font-size:14px;
+        font-family: FontAwesome;
+        color:#454545;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children:hover:after,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:hover:after,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:hover:after{
+        content:"\f107";
+        color:#fece15;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav li,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav li,
+    .tz-header #tz-navbar-collapse ul.tz-nav li{
+        padding:0;
+        border-bottom:1px solid #fff;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav li a,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav li a,
+    .tz-header #tz-navbar-collapse ul.tz-nav li a{
+        margin:0;
+        padding:15px 20px;
+        border-left:3px solid #eee;
+        color:#454545;
+        border-right:none;
+        border-bottom:1px solid #e1dede;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li:hover > a,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li:hover > a,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li:hover > a{
+        border-color:#fece15;
+        color:#fece15;
+        background: #262939;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav li a:hover,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav li a:hover,
+    .tz-header #tz-navbar-collapse ul.tz-nav li a:hover{
+        border-color:#fece15;
+        color:#fece15;
+        background: #262939;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children div.themeple_custom_menu_mega_menu,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children div.themeple_custom_menu_mega_menu,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children div.themeple_custom_menu_mega_menu,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu{
+        width:100% !important;
+        position: relative;
+        top:0;
+        opacity: 1;
+        border:none;
+        height:0;
+        overflow: hidden;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children:hover div.themeple_custom_menu_mega_menu,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:hover div.themeple_custom_menu_mega_menu,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:hover div.themeple_custom_menu_mega_menu{
+        height:auto;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children div.themeple_custom_menu_mega_menu .sub-menu li.menu-item,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children div.themeple_custom_menu_mega_menu .sub-menu li.menu-item,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children div.themeple_custom_menu_mega_menu .sub-menu li.menu-item{
+        float:none;
+        width:100% !important;
+        border-right:none;
+        border-left: none;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children:hover ul.sub-menu,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:hover ul.sub-menu,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children:hover ul.sub-menu{
+        height:auto;
+        visibility: visible;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children ul.sub-menu li,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu li,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu li{
+        border-bottom:none;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children ul.sub-menu li a,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu li a,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu li a{
+        border-left:none;
+        border-top:none;
+        background: #dad9d9;
+        color:#777;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        font-weight:300;
+        font-size:14px;
+        line-height: 11px;
+    }
+    .tz-headerShop .tz-headerBottom nav ul li, .tz-header .tz-headerBottom nav ul li{
+        float:none;
+    }
+    .tz-headerHome .tzHeaderMenu_nav nav ul.tz-nav > li.menu-item-has-children ul.sub-menu li a:hover,
+    .tz-headerShop #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu li a:hover,
+    .tz-header #tz-navbar-collapse ul.tz-nav > li.menu-item-has-children ul.sub-menu li a:hover{
+        background: #fafafa;
+        color:#454545;
+        border-color:#e1dede;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .tz-headerShop .navbar-toggle,
+    .tz-header .navbar-toggle{
+        background:#fece15;
+        border-radius: 0;
+        color: #fff;
+        margin: 28px 20px 25px;
+        padding: 2px 10px;
+    }
+    .tz-headerHome .navbar-toggle{
+        background:#fece15;
+        border-radius: 0;
+        color: #fff;
+        margin: 28px 20px 25px;
+        padding: 2px 10px;
+    }
+    .tz-menuVertical{
+        display:none !important;
+    }
+    .tz-headerHome .tzHeaderMenu_nav{
+        position:static;
+    }
+    .tz-headerHome .tzHeaderMenu_nav .pull-right{
+        width:100%;
+    }
+
+
+
+}
+/* END Portrait tablet to landscape and desktop */
+
+
+/*==========================================
+ Landscape phone to portrait tablet
+ ===========================================*/
+@media (max-width: 767px) {
+
+
+    /*menu*/
+    button.tz_icon_menu{
+        display: block;
+    }
+    nav.nav-collapse {
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+    ul.tz-nav{
+        float: none;
+        position: relative;
+        width: 250px;
+        background: #808080;
+    }
+    ul.tz-nav li{
+        float: none;
+        width: auto;
+        display: block;
+    }
+    ul.tz-nav div.themeple_custom_menu_mega_menu{
+        width: auto !important;
+        display: block;
+        position: relative;
+
+    }
+    ul.tz-nav div.themeple_custom_menu_mega_menu ul > li {
+        float: none;
+        margin: 0 !important;
+        width: auto !important;
+    }
+    ul.tz-nav li ul.non_mega_menu
+    {
+        display: block;
+        position: relative;
+        width: auto;
+    }
+    ul.tz-nav li ul.non_mega_menu li ul{
+        display: block !important;
+        position: relative;
+        width: auto;
+        left: 0;
+        padding: 0;
+    }
+
+}
+/* END Landscape phone to portrait tablet */
+
+
+/*====================================
+Landscape phones and down
+ =====================================*/
+@media (max-width: 480px) {
+    button.tz_icon_menu{
+        display: block;
+    }
+
+}
+/* end Landscape phones and down */
